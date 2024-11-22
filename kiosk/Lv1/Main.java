@@ -1,12 +1,14 @@
-package kiosk;
+package kiosk.Lv1;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        System.out.print("메뉴판을 확인 하시려면 'Menu'를 입력해주세요: ");//메뉴판을 확인하시려면 'Menu' 명령어를 입력하는 출력문 필요함.
+        /*
+          메뉴판을 불러올 것 인지 지문 이후 입력값을 확인 후 메뉴판으로 넘어감.
+         */
+        System.out.print("메뉴판을 확인 하시려면 'Menu' 를 입력해주세요: ");//메뉴판을 확인하시려면 'Menu' 명령어를 입력하는 출력문 필요함.
         String checkMenu = sc.nextLine();//입력값 받기.
 
         int choiceNum = 0;
@@ -27,7 +29,7 @@ public class Main {
                 choiceNum = sc.nextInt();
 
             } else {
-                System.out.println("명령어를 잘못 입력하셨습니다.");
+                System.out.println("번호를 잘못 입력하셨습니다.");
                 System.out.println();
             }
 
@@ -72,6 +74,6 @@ public class Main {
                 break;
             }
         }
-        sc.close();
+        sc.close(); //스캐너 사용 종료 메모리 확보
     }
 }
