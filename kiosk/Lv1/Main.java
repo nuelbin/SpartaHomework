@@ -18,10 +18,10 @@ public class Main {
             if (checkMenu.equals("Menu")) { //명령어를 입력시 메뉴판이 보이게 if문 사용.
                 System.out.println(" [ BurgerKing 메뉴판 ] ");
                 System.out.println("주문하실 메뉴의 번호를 입력해주세요 메뉴판을 종료하시려면 0을 입력해주세요.");
-                System.out.println(" 1. 치킨킹(단품)     | 6,400원 | 스파이시 통닭다리살과 브리오쉬번이 들어간 치킨버거.");
-                System.out.println(" 2. 치킨킹(세트)     | 8,400원 | 스파이시 통닭다리살과 브리오쉬번이 들어간 치킨버거.");
-                System.out.println(" 3. 치킨킹 BLT(단품) | 7,400원 | 스파이시 통닭다리살, 브리오쉬번, 베이컨, 양상추, 토마토가 들어간 치킨버거.");
-                System.out.println(" 4. 치킨킹 BLT(세트) | 9,400원 | 스파이시 통닭다리살, 브리오쉬번, 베이컨, 양상추, 토마토가 들어간 치킨버거.");
+                System.out.println(" 1. 치킨킹(단품)     | 6400원 | 스파이시 통닭다리살과 브리오쉬번이 들어간 치킨버거.");
+                System.out.println(" 2. 치킨킹(세트)     | 8400원 | 스파이시 통닭다리살과 브리오쉬번이 들어간 치킨버거.");
+                System.out.println(" 3. 치킨킹 BLT(단품) | 7400원 | 스파이시 통닭다리살, 브리오쉬번, 베이컨, 양상추, 토마토가 들어간 치킨버거.");
+                System.out.println(" 4. 치킨킹 BLT(세트) | 9000원 | 스파이시 통닭다리살, 브리오쉬번, 베이컨, 양상추, 토마토가 들어간 치킨버거.");
                 System.out.println(" 0. 메뉴판 종료.");
 
                 System.out.println();
