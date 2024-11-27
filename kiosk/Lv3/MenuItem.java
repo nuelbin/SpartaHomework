@@ -1,4 +1,4 @@
-package kiosk.Lv2;
+package kiosk.Lv3;
 
 public class MenuItem {
 
