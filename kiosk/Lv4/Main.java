@@ -1,4 +1,4 @@
-package kiosk.Lv3;
+package kiosk.Lv4;
 
 import java.util.Scanner;
 
@@ -27,5 +27,3 @@ public class Main {
         }
     }
 }
-
-
